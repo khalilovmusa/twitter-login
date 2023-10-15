@@ -1,0 +1,65 @@
+.sign-as-musa-button,
+.apple-button{
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  height: 40px;
+  width: 300px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.create-account-button{
+  background-color: rgb(29, 155, 240);
+  color: rgb(255,255,255);
+  height: 40px;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-in-button{
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  color: rgb(29, 155, 240);
+  background-color: black;
+  cursor: pointer;
+  height: 40px;
+  width: 300px;
+  margin-top: 10px;
+  
+}
+
+.sign-in-button:hover{
+  background-color: white;
+  border-color: black;
+
+}
+
+.sign-in-button,
+.create-account-button,
+.sign-as-musa-button,
+.apple-button{
+  transition: 0.25s;
+  
+}
+
+.sign-in-button:hover,
+.create-account-button:hover,
+.sign-as-musa-button:hover,
+.apple-button:hover{
+  opacity: 0.9;
+}
+
+.sign-in-button:active,
+.create-account-button:active,
+.sign-as-musa-button:active,
+.apple-button:active{
+  width: 310px;
+  transition-duration: 1s;
+}

@@ -1,0 +1,27 @@
+.itachi-photo,
+.apple-logo-photo{
+  height: 22px;
+  width: 22px;
+  border: none;
+  border-radius: 11px;
+  
+}
+
+
+
+.google-logo{
+  height: 28px;
+  width: 28px;
+  border: none;
+  border-radius: 14px;
+
+}
+
+.apple-logo{
+  margin-right: 10px;
+}
+
+.twitter-logo{
+  margin-top: 40px;
+  margin-left: 20px;
+}

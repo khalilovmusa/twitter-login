@@ -1,0 +1,145 @@
+body{
+  font-family: Roboto,Arial;
+  color: white;
+  background-color: black;
+  margin-bottom: 200px;
+
+}
+
+.header{
+  font-size: 70px;
+  font-weight: 700;
+  font-family: Rem,Roboto,Arial;
+  
+}
+
+.text{
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Rem,Roboto,Arial;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.twitter{
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sign-in-as-musa-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: first baseline;
+}
+
+.sign-in-text-container{
+  margin-right: 30px;
+
+}
+
+.gmail-photo-container{
+ margin-right: 15px;
+ margin-top: 0px;
+ margin-left: 20px;
+}
+
+.gmail-profile-photo{
+  margin-top: 1px;
+}
+
+.gmail-profile-photo,
+.sign-in-text-container,
+.google-logo-container{
+  display: inline-block;
+  
+}
+
+.sign-in-text-container{
+  font-size: 12px;
+  color: grey;
+  
+}
+
+.sign-in-as-musa{
+  margin-left: 0px;
+  display: flex;
+  justify-content: baseline;
+  font-weight: 500;
+}
+
+.sign-up-apple-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.or-text{
+  position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.or-container{
+  width: 120px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  margin-left: 90px;
+}
+
+.or-text::before{
+  content:" ";
+  height: 1px;
+  width: 140px;
+  background: rgb(79, 79, 79);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+}
+
+.or-text:after{
+  content:" ";
+  height: 1px;
+  width: 140px;
+  background: rgb(79, 79, 79);
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  
+}
+
+.terms-and-conditions{
+  color: grey;
+  font-size: 10px;
+  font-family: Roboto,Arial;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  line-height: 13px;
+  width: 300px;
+  
+}
+
+.alredy-text-container{
+  margin-top: 40px;
+  font-size: 17px;
+  color: white;
+  font-weight: 500;
+  font-family: Rem,Roboto,Arial;
+  margin-left: 4px;
+  margin-bottom: 10px;
+
+}
